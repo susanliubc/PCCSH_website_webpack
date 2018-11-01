@@ -24,4 +24,7 @@ body {
   .mapcontainer {
     height: 100vh;
     width:100;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
   }
+
