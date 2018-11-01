@@ -17,5 +17,11 @@
   "bugs": {
     "url": "https://github.com/susanliubc/PCCSH_website_webpack/issues"
   },
-  "homepage": "https://github.com/susanliubc/PCCSH_website_webpack#readme"
+  "homepage": "https://github.com/susanliubc/PCCSH_website_webpack#readme",
+  "dependencies": {
+    "google-map-react": "^1.0.9",
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0",
+    "react-router-dom": "^4.3.1"
+  }
 }
