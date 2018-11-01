@@ -1,0 +1,21 @@
+{
+  "name": "pccsh_website_webpack",
+  "version": "1.0.0",
+  "description": "PCCSH wesite with webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run build",
+    "build": "webpack -p && webpack-dev-server --content-base src/app/  --inline --hot --port 4000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/susanliubc/PCCSH_website_webpack.git"
+  },
+  "author": "Susan Liu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/susanliubc/PCCSH_website_webpack/issues"
+  },
+  "homepage": "https://github.com/susanliubc/PCCSH_website_webpack#readme"
+}
