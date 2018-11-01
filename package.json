@@ -2,7 +2,7 @@
   "name": "pccsh_website_webpack",
   "version": "1.0.0",
   "description": "PCCSH wesite with webpack",
-  "main": "index.js",
+  "main": "App.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npm run build",
