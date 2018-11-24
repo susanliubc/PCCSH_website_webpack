@@ -1,5 +1,6 @@
 import React from 'react';
-import GoogleMap from './Googlemap';
+//import GoogleMap from './Googlemap';
+import address from './images/address';
 
 const Contact = (props) => {
     return (
@@ -13,7 +14,9 @@ const Contact = (props) => {
 
             <h5 className="phone center">Phone: 647-757-1238</h5>
             <h5 className="email center">Email: info@pccsh.net</h5>
-            <GoogleMap />
+            <div className="map">
+                <img src={address} alt="" className="responsive-img center-block"/>
+            </div>
         </div>
     )
 }
