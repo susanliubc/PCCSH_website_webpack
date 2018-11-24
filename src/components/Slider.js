@@ -1,16 +1,16 @@
 import React from 'react';
-import board from './images/board.jpg';
+import board from './images/board.JPEG';
 import senior from './images/senior.jpg';
-import youth from './images/youth.jpg';
+import youth from './images/youth.JPEG';
 
 const Slider =(props) => {
     return (
         <div className="slider">
              <ul className="slides">
                 <li className="active">
-                    <img className="responsive-img" src={board} alt=""/>>
+                    <img className="responsive-img" src={board} alt=""/>
                         <div className="caption">
-                            <h3>PCCSH board</h3>
+                            <h3 className='teal-text'>PCCSH board</h3>
                         </div>
                 </li>
                 <li>
