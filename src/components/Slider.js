@@ -7,7 +7,7 @@ const Slider =(props) => {
     return (
         <div className="slider">
              <ul className="slides">
-                <li className="active">
+                <li>
                     <img className="responsive-img" src={board} alt=""/>
                         <div className="caption">
                             <h3 className='teal-text'>PCCSH board</h3>
