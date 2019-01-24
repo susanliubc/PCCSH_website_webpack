@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Navbar from '../components/Navbar';
 import { Route, BrowserRouter, Switch } from 'react-router-dom';
+import newlogo from '../components/images/newlogo.png';
 import Home from '../components/Home';
 import About from '../components/About';
 import Program from '../components/Program';
@@ -18,7 +19,7 @@ class App extends Component {
                 <div className='App'>
                     <header>
                         <div className="title">
-                            <h2 className="center teal-text text-lighten-1">Peel Chinese Community Service Hub</h2>
+                            <img className="funded responsive-img center-block" src={newlogo} alt=""/>
                         </div>
                         <Navbar />
                     </header>
