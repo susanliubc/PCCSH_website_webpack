@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npm run build",
-    "build": "webpack -p && webpack-dev-server --content-base src/app/  --inline --hot --port 4000"
+    "build": "webpack -p && webpack-dev-server --content-base src/app/  --inline --hot --host 0.0.0.0 --public susanliubc-pccsh-website-webpack-2.glitch.me"
   },
   "repository": {
     "type": "git",

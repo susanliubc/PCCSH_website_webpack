@@ -1,7 +1,7 @@
 import React from 'react';
-import board from './images/board.JPEG';
+import board from './images/board.jpeg';
 import senior from './images/senior.jpg';
-import youth from './images/youth.JPEG';
+import youth from './images/youth.jpeg';
 
 const Slider =(props) => {
     return (

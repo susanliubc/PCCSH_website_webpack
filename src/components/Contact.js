@@ -1,6 +1,6 @@
 import React from 'react';
 //import GoogleMap from './Googlemap';
-import address from './images/address';
+import address from './images/address.jpg';
 
 const Contact = (props) => {
     return (

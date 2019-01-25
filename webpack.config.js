@@ -27,7 +27,7 @@ module.exports = {
                 loader: 'style-loader!css-loader'
             },
             {
-                test: /\.(jpg|png|JPEG)$/,
+                test: /\.(jpg|png|jpeg)$/,
                 loader: 'url-loader',
                 options: {
                     limit: 10000
